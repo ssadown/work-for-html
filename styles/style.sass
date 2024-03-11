@@ -1,0 +1,421 @@
+@font-face
+    font-family: "RobotoRegular"
+    src : url("../fonts/Roboto-Regular.ttf")
+
+
+    
+html, body
+    padding: 0
+    margin: 0
+path
+    stroke: transparent
+header 
+    width: 100%
+    height: 10%
+    min-height: 90px
+    max-height: 100px
+    display: flex
+    justify-content: center
+    align-items: center
+    .header-content
+        width: 90%
+        height: 80%
+        display: flex
+        align-items: center
+        justify-content: flex-start
+        .icon-block 
+            width: 60%
+            height: 100%
+            display: flex
+            align-items: center
+            justify-content: flex-start
+        nav
+            width: 40%
+            height: 100%
+            display: flex
+            align-items: center
+            justify-content: space-around
+            ul
+                list-style-type: none
+                width: 100%
+                height: 100%
+                display: flex
+                align-items: center
+                justify-content: space-around
+                a
+                    font: 1em 'RobotoRegular', sans-serif
+                    text-decoration: none
+                    color: black
+                    transition-duration: 0.7s
+                    padding: 0.5em 2em
+                    border-radius: 25px
+                    line-height: 2.5em
+                a:visited
+                    color: black
+                a:hover
+                    background-color: black
+                    color: white
+
+.introducing
+    font: 2vh 'RobotoRegular', sans-serif!important
+    color: #A6A6A6
+    text-align: center
+.first__block
+    height: 100%
+    width: 100%
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+    .block-content
+        height: 50%
+        width: 90%
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-direction: column
+        h1
+            width: 40%
+            text-align: center
+            font: 4.5em 'RobotoRegular', sans-serif
+            margin: 0
+        p
+            font: 2.3vh 'RobotoRegular', sans-serif
+            width: 60%
+            text-align: center
+        a
+            font: 1em 'RobotoRegular', sans-serif
+            text-decoration: none
+            color: black
+            transition-duration: 0.7s
+            padding: 1em 2em
+            border-radius: 25px
+            line-height: 2.5em
+        a:visited
+            color: black
+        a:hover
+            background-color: black
+            color: white
+    .actions
+        width: 80%
+        height: 15%
+        display: flex
+        align-items: center
+        justify-content: space-around
+        min-height: 100px
+        .action-block
+            width: 32%
+            height: 100%
+            display: flex
+            justify-content: center
+            align-items: center
+            p
+                font: 1.3vh 'RobotoRegular', sans-serif
+    .block-image
+        height: 50%
+        width: 100%
+        display: flex
+        justify-content: center
+        align-items: center
+    .block-information
+        height: 50%
+        width: 100%
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-direction: column
+        margin-top: 30px
+        p
+            font: 3.2em 'RobotoRegular', sans-serif
+            width: 60%
+            margin: 0
+        img
+            margin: 30px
+.how-it-work__block 
+    width: 100%
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    background-color: #FAFAFA
+    .hiw-content__block
+        height: 100%
+        width: 80%
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        p
+            margin-top: 30px
+        h1
+            width: 35%
+            font: 4em 'RobotoRegular', sans-serif
+            text-align: center
+            margin: 0
+        .steps-for-work
+            height: 50%
+            width: 100%
+            justify-content: space-around
+            align-items: center
+            display: flex
+            margin-top: 50px
+            margin-bottom: 50px
+            .step__block
+                width: 30%
+                height: 100%
+                display: flex
+                flex-direction: column
+                img
+                    align-self: center
+                h2
+                    font: 2.5vh 'RobotoRegular', sans-serif
+                p
+                    font: 2vh 'RobotoRegular', sans-serif
+                    margin: 0
+
+.cutstom-page__block
+    width: 100%
+    display: flex
+    align-items: center
+    justify-content: center
+    .cp-block__content
+        margin-top: 50px
+        margin-bottom: 50px
+        width: 90%
+        display: flex
+        align-items: center
+        justify-content: center
+        .cp-content__info
+            width: 50%
+            height: 100%
+            display: flex
+            align-items: flex-start 
+            justify-content: center
+            flex-direction: column
+            h1
+                font: 6vh 'RobotoRegular', sans-serif
+                width: 70%
+                margin-bottom: 20px
+            p
+                font: 2.5vh 'RobotoRegular', sans-serif
+                margin: 0
+            a
+                font: 1em 'RobotoRegular', sans-serif
+                text-decoration: none
+                color: black
+                transition-duration: 0.7s
+                padding: 0.5em 2em
+                border-radius: 25px
+                line-height: 2.5em
+                margin-top: 15px
+            a:visited
+                color: black
+            a:hover
+                background-color: black
+                color: white
+        .cp-content__img
+            width: 50%
+            height: 100%
+            display: flex
+            align-items: center
+            justify-content: center
+
+.info-delivery__block
+    width: 100%
+    justify-content: center
+    align-items: center
+    display: flex
+    background-color: #FAFAFA
+    .id-block__content
+        height: 100%
+        width: 80%
+        display: flex
+        margin-top: 50px
+        margin-bottom: 50px
+        align-items: center
+        .id-content__pict
+            width: 50%
+            height: 100%
+            display: flex
+            align-items: center
+            justify-content: center
+        .id-content__info
+            display: flex
+            width: 50%
+            height: 100%
+            justify-content: center
+            flex-direction: column
+            h1
+                font: 6vh 'RobotoRegular', sans-serif
+                margin: 0
+            p
+                width: 80%
+                font: 2vh 'RobotoRegular', sans-serif
+
+.map__block
+    width: 100%
+    display: flex
+    align-items: center
+    justify-content: center
+    .map-block__content
+        margin-top: 50px
+        margin-bottom: 50px
+        width: 80%
+        display: flex
+        align-items: center
+        justify-content: center
+        flex-direction: column
+        .map-content__info
+            width: 100%
+            display: flex
+            align-items: center
+            justify-content: center
+            flex-direction: column
+            h1
+                font: 6vh 'RobotoRegular', sans-serif
+                margin: 0
+            p
+                width: 40%
+                font: 1.5vh 'RobotoRegular', sans-serif
+                text-align: center
+        .map-block__pict
+            width: 100%
+            display: flex
+            align-items: center
+            justify-content: center
+
+.faq__block
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-direction: column
+    margin-bottom: 50px
+    h1
+        width: 50%
+        font: 4vh 'RobotoRegular', sans-serif
+        text-align: center
+        margin: 0
+    .faq-content
+        width: 50%
+        display: flex
+        align-items: center
+        justify-content: center
+        flex-direction: column
+        .faq-content__block
+            width: 100%
+            border-bottom: 2px solid black
+            display: flex
+            align-items: center
+            justify-content: space-between
+            margin-top: 10px
+            p
+                font: 2vh 'RobotoRegular', sans-serif
+            svg
+                transition-duration: 0.6s
+                padding: 10px
+                border-radius: 50%
+                cursor: pointer
+            svg:hover
+                background-color: black
+                transform: rotate(180deg)
+                path
+                    fill: white
+
+.request-beta__block
+    margin-bottom: 100px
+    width: 100%
+    display: flex
+    align-items: center
+    justify-content: center
+    .rb-block__content
+        width: 80%
+        border-radius: 25px
+        background-color: #FAFAFA
+        display: flex
+        align-items: center
+        justify-content: center
+        min-height: 500px
+        .rb-content
+            width: 50%
+            height: 100%
+            display: flex
+            align-items: center
+            justify-content: center
+            flex-direction: column
+            h1
+                font: 6vh 'RobotoRegular', sans-serif
+                width: 60%
+                margin: 0
+            p
+                font: 1.5vh 'RobotoRegular', sans-serif
+                width: 60%
+                text-align: left !important
+            .rb-content__link
+                width: 60%
+                a
+                    font: 1em 'RobotoRegular', sans-serif
+                    text-decoration: none
+                    color: black
+                    transition-duration: 0.7s
+                    padding: 0.5em 2em
+                    border-radius: 25px
+                    line-height: 2.5em
+                    margin-top: 15px
+                a:visited
+                    color: black
+                a:hover
+                    background-color: black
+                    color: white
+
+footer
+    min-height: 350px
+    width: 100%
+    display: flex
+    align-items: center
+    justify-content: center
+    .footer-content
+        height: 100%
+        width: 90%
+        border-top: 2px solid #FAFAFA
+        display: flex
+        align-items: center
+        .fc-pad
+            padding-top: 30px
+        .fc-info
+            height: 90%
+            width: 10%
+            display: flex
+            justify-content: center
+            flex-direction: column
+            p
+                text-align: left !important
+        .fc-author
+            height: 90%
+            width: 50%
+            display: flex
+            align-items: center
+            justify-content: center
+        .fc-links
+            height: 90%
+            width: 40%
+            display: flex
+            align-items: flex-start
+            justify-content: space-around
+            ul
+                list-style-type: none
+                height: 100%
+                display: flex
+                flex-direction: column
+                align-items: flex-start
+                justify-content: space-around
+                margin: 0
+                li
+                    margin-top: 30px
+                    color: black
+                    font: 1.5vh 'RobotoRegular', sans-serif
+                    a
+                        cursor: pointer
+                        color: black
+                        text-decoration: none
+                li:first-child
+                    color: #A6A6A6
